@@ -31,6 +31,6 @@ print(s.split())
 print(s.split("a")) #['my n', 'me is md m', 'hboob ', 'l', 'm']
 print(s)
 
-print(s.strip())
+print(s.strip()) # remove extra space
 s = " ".join(s)
 print(s)
