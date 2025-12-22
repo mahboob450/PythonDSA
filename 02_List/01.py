@@ -1,4 +1,4 @@
-# List -> hetrogenious , dynamic size, ordered, mutable,duplicates value
+# List -> hetrogenious , dynamic size, ordered, mutable,duplicates value,indexable , iterabale
 
 # li=["mahboob",12,12.3,"apple"]
 # print(li)
@@ -42,7 +42,7 @@ list3[1] = 100
 print(list2,id(list3))
 print(list3,id(list3))
 
-#slicin4
+#slicing
 list4 = [4,2,4,5,7,2,1,8]
 
 print(list4[2:6])
@@ -59,13 +59,14 @@ print(list4[::-1]) # reverse
 li5=[1,2,43,5,3,65]
 li5.append(10) #Add item at end
 print(li5)
-li5.insert(1,20) #Add item at a specific index
+li5.insert(1,20) #Add item at a specific index ,list.insert(index, value)
+
 li5.extend([45,47]) #Add multiple items 
 
 li5.remove(45) #Remove by value
 li5.pop(5) #Remove by index (returns removed item)
 li5.clear() #Remove all items
-# li5.index(65) #Returns index of an element
+li5.index(65) #Returns index of an element
 li5.count(1) #Count occurrences of a value
 li5.reverse() #Reverse the list in place
 li5.sort() #Sort list in place-> original list is modified
