@@ -31,5 +31,5 @@ print(s.split("a")) #['my n', 'me is md m', 'hboob ', 'l', 'm']
 print(s)
 
 print(s.strip()) # remove extra space
-s = " ".join(s)
+s = " ".join(s) #Is line ka matlab string ke characters ko space ke saath join karna hai.
 print(s)
