@@ -9,7 +9,7 @@ set1.add(100)
 print(set1)
 # set1.clear()
 print(set1)
-set1.discard(100)
+set1.discard(100) #Ye set se element remove karta hai — lekin agar element na mile tab bhi error nahi deta.
 print(set1)
 
 # set operations
