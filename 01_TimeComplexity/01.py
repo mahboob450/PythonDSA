@@ -24,6 +24,7 @@ def logarithmic_time_example(arr, target):
             right = mid - 1
     return -1  # Target not found   
 # O(n) - Linear Time: The execution time grows linearly with the input size.
+
 def linear_time_example(arr):
     total = 0
     for num in arr:
