@@ -1,4 +1,3 @@
-
 t='I am final year b tech student'
 u="""I am begusarai bihar"""
 
