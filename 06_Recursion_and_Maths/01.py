@@ -1,4 +1,4 @@
-# recursion -> A function calling itself untit a base condition is met
+# recursion -> A function calling itself until a base condition is met
 #  base case -> terminating condition
 
 def sum(n):
