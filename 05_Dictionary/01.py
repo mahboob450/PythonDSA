@@ -43,4 +43,8 @@ for i in list1:
 for i in freq:
     print(f"{i} is present {freq[i]} times")    
 
+# freq.get(key, default)
+# If key exists → returns its value
+# If key does NOT exist → returns default    
+
 #Two sum -Array is unsorted  ..dictionary is used

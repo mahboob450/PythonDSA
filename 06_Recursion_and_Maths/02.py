@@ -68,7 +68,10 @@ def isPrime(n):
         return True
 
 print(isPrime(13))
-print(isPrime(20))                
+print(isPrime(20))        
+
+# leetcode practice problrm-> 167,151,54,283,121,125 ,217,14,242,48,53,509,231,50
+# 
 
 
 
