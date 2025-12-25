@@ -54,3 +54,5 @@ def deleteAtSpecificIdx(head,idx):
 
 head=deleteAtSpecificIdx(head,2)
 printLL(head)
+
+# leetcode-> 876,19,206,141,21,203,2,160,142
