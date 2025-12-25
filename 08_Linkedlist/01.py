@@ -1,1 +1,1 @@
-#  linked list-> Linked list is basically chains of nodes where each node contains information such as data and a pointer to the next node in the chain
+#linked list-> Linked list is basically chains of nodes where each node contains information such as data and a pointer to the next node in the chain
